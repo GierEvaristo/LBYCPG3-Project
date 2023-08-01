@@ -1,3 +1,7 @@
+body {
+    background-color: #f0f0f0;
+}
+
 h1 {
     color:white;
 }
@@ -15,8 +19,12 @@ h1 {
 }
 
 .dlsu-logo {
-    width: 30%;
+    width: 70px;
     margin: 10px;
+}
+
+#collapseBtn {
+    width:
 }
 
 #sidebar {
@@ -25,6 +33,7 @@ h1 {
     margin-right: 10px;
     border-radius: 0px 10px 10px 0px;
     padding: 10px;
+    width: 17vw;
 }
 
 .navtext {

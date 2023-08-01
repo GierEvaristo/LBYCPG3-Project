@@ -1,38 +1,42 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-   
-    const showNavbar = (toggleId, navId, bodyId, headerId) =>{
-    const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId),
-    bodypd = document.getElementById(bodyId),
-    headerpd = document.getElementById(headerId)
-    
-    // Validate that all variables exist
-    if(toggle && nav && bodypd && headerpd){
-    toggle.addEventListener('click', ()=>{
-    // show navbar
-    nav.classList.toggle('show')
-    // change icon
-    toggle.classList.toggle('bx-x')
-    // add padding to body
-    bodypd.classList.toggle('body-pd')
-    // add padding to header
-    headerpd.classList.toggle('body-pd')
-    })
+var hidden = false;
+
+var collapseBtn = document.getElementById("collapseBtn")
+collapseBtn.addEventListener("click", collapseHandler);
+
+function collapseHandler(event) {
+    var sidebar = document.getElementById("sidebar");
+    var DLSUtext = document.getElementById("DLSU-text");
+    var directories = document.getElementById("directories");
+    var toggleIcon = document.getElementById("toggleIcon").innerText;
+    if (toggleIcon == "menu_open"){ // close
+
+        directories.style.transition = 'opacity 0.2s';
+        directories.style.opacity = '0';
+        directories.style.display = 'none';
+        
+        setTimeout(function(){
+            sidebar.style.transition = 'width 0.5s';
+            sidebar.style.width = '6vw';
+            document.getElementById("toggleIcon").innerHTML = "menu";
+            setTimeout(function(){
+                sidebar.style.removeProperty("transition");
+            },500);
+        },200);
     }
+    else if (toggleIcon == "menu") {
+    
+        sidebar.style.transition = 'width 0.5s';
+        sidebar.style.width = '17vw';
+        document.getElementById("toggleIcon").innerHTML = "menu_open";
+        
+        setTimeout(function(){
+            setTimeout(function(){
+                directories.style.display = 'block';
+                directories.style.transition = 'opacity 0.2s';
+                directories.style.opacity = '1';
+                sidebar.style.removeProperty("transition");
+            },200);
+        },500);
     }
     
-    showNavbar('header-toggle','nav-bar','body-pd','header')
-    
-    /*===== LINK ACTIVE =====*/
-    const linkColor = document.querySelectorAll('.nav_link')
-    
-    function colorLink(){
-    if(linkColor){
-    linkColor.forEach(l=> l.classList.remove('active'))
-    this.classList.add('active')
-    }
-    }
-    linkColor.forEach(l=> l.addEventListener('click', colorLink))
-    
-     // Your code to run since DOM is loaded and ready
-    });
+}
