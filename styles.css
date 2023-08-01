@@ -1,3 +1,34 @@
 h1 {
-    color:green;
+    color:white;
+}
+
+.green-box-top {
+    background-color: #006937;
+    height: 4vh;
+    margin-bottom: 10px;
+}
+
+.green-box-bottom {
+    background-color: #006937;
+    height: 4vh;
+    margin-top: 10px;
+}
+
+.dlsu-logo {
+    width: 30%;
+    margin: 10px;
+}
+
+#sidebar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+}
+
+.navtext {
+    color: black;
+    font-weight: bold;
+    font-size: 15px
 }
