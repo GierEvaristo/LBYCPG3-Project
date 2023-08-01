@@ -5,7 +5,8 @@ h1 {
 body {
     overflow-x: hidden;
 }
-    
+
+
 .green-box-top {
     background-color: #006937;
     height: 4vh;
@@ -37,11 +38,14 @@ body {
     font-size: 15px
 }
 
-#contents {
+#body-content{
+    width: 100%;
+}
+
+#titlepage {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
-    border-radius: 0px 10px 10px 0px;
     padding: 10px;
     width: auto;
 
@@ -53,9 +57,94 @@ body {
     margin-top: 10px;
 }
 
+.body-header{
+    height: 25vh; 
+    width: 100%; 
+    padding: 10px;
+    margin: 10px;
+}
+
 .header-pic{
     height: 25vh;
     width: 90vw;
-    
+    object-fit: cover;
+    position: absolute;
+}
 
+.dlsu-gcoe{
+    height: 19vh;
+    width: 19vh;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    top: 8%;
+    left: 2%;
+}
+
+.header-text1{
+    position: absolute;
+    font-size: 250%;
+    font-weight: bolder;
+    color: white;
+    left: 35%;
+    top: 20%;
+}
+
+.header-text2{
+    position: absolute;
+    font-size: 120%;
+    font-weight: normal;
+    color: white;
+    left: 35%;
+    top: 27%;
+   
+}
+
+.body-picture{
+    height: 40vh; 
+    width: 100%; 
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.body-circuit{
+    height: 40vh;
+    width: 90vw;
+    object-fit:cover;
+    position: absolute;
+}
+
+.vision{
+    height: 40vh;  
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.text-header1{
+    text-align: right;
+    width: 94%;
+    font-family:Impact;
+    font-size: 50px;
+}
+
+.text-container1{
+    background-color: #006937;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    height: 18vh;
+    width: 94%;
+    text-align: justify;
+    
+}
+
+.text1{
+    font-size: 24px;
+    color: white;
+    
 }

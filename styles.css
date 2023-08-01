@@ -1,14 +1,12 @@
 body {
     background-color: #f0f0f0;
+    overflow-x: hidden;
 }
 
 h1 {
     color:white;
 }
 
-body {
-    overflow-x: hidden;
-}
 
 .green-box-top {
     background-color: #006937;
