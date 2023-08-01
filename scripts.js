@@ -1,11 +1,9 @@
 var hidden = false;
-
 var collapseBtn = document.getElementById("collapseBtn")
 collapseBtn.addEventListener("click", collapseHandler);
 
 function collapseHandler(event) {
     var sidebar = document.getElementById("sidebar");
-    var DLSUtext = document.getElementById("DLSU-text");
     var directories = document.getElementById("directories");
     var toggleIcon = document.getElementById("toggleIcon").innerText;
     if (toggleIcon == "menu_open"){ // close
