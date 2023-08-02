@@ -1,0 +1,139 @@
+h1 {
+    color:white;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.green-box-top {
+    background-color: #006937;
+    height: 4vh;
+    margin-bottom: 10px;
+}
+
+.green-box-bottom {
+    background-color: #006937;
+    height: 4vh;
+    margin-top: 10px;  
+}
+
+.dlsu-logo {
+    width: 70px;
+    margin: 10px;
+}
+
+#sidebar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+}
+
+.navtext {
+    color: black;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.green-box-bottom {
+    background-color: #006937;
+    height: 4vh;
+    margin-top: 10px;
+}
+
+.round-rightelement {
+    border-radius: 10px 10px 10px 10px;
+}
+
+#so-header{
+    height:50vh;
+    width: max-content;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#body-header{
+    height: 30vh;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: url("pictures/body-header.jpg");
+    border-radius: 10px 0px 0px 10px;
+}
+
+.dlsu-gcoe{
+    height: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#body-picture{
+    height: 40vh; 
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+    overflow: hidden;
+}
+
+.body-circuit{
+    height: 40vh;
+    width: 100%;
+    object-fit:cover;
+}
+
+#header-col{
+    color:white;
+    padding-left: 30px;
+}
+
+#mission{  
+    background-color: #006937;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+#tableHolder{  
+    background-color: #383838;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+#green-container{
+    color: white;
+    background-color: #006937;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+#white-container{
+    background-color: #006937;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+#program-history{  
+    background-color: #006937;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.outline-font {
+    font-family: "Inter","serif";
+    font-size: 10rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    line-height: 0;
+}
+
+#bigfont-container {
+    margin-bottom: 20px;
+    padding-top: 8vh;
+    padding-bottom: 2.2vh;
+}
