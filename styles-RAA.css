@@ -1,10 +1,24 @@
-
 h1 {
     color:white;
 }
 
 body {
     overflow-x: hidden;
+}
+
+.outline-font {
+    font-family: "Inter","serif";
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #006937;
+    line-height: 0;
+}
+
+#bigfont-container {
+    margin-bottom: 20px;
+    padding-top: 8vh;
+    padding-bottom: 2.2vh;
 }
 
 
@@ -38,23 +52,6 @@ body {
     font-weight: bold;
     font-size: 15px
 }
-#header-col{
-    color:white;
-    padding-left: 30px;
-}
-
-#body-content{
-    width: 100%;
-}
-
-#titlepage {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    padding: 10px;
-    width: 100%;
-
-}
 
 .green-box-bottom {
     background-color: #006937;
@@ -62,11 +59,14 @@ body {
     margin-top: 10px;
 }
 
+.round-rightelement {
+    border-radius: 10px 10px 10px 10px;
+}
+
 #body-header{
-    width: 99%;
     height: 30vh;
     padding: 20px;
-    margin: 10px;
+    margin-bottom: 20px;
     background-image: url("pictures/body-header.jpg");
     border-radius: 10px 0px 0px 10px;
 }
@@ -76,88 +76,38 @@ body {
     padding: 10px;
     margin: 10px;
     background-color: white;
-    position: relative;
     border-radius: 10px;
 }
 
-#body-picture{
-    height: 40vh; 
-    width: 99%; 
-    margin: 10px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+#header-col{
+    color:white;
+    padding-left: 30px;
+}
+
+#DA-Header{ 
+    background-color: #006937;
     border-radius: 10px 0px 0px 10px;
-}
-
-.body-grad{
-    height: 40vh;
-    width: 100%;
-    object-fit:cover;
-    position: absolute;
-}
-
-#body-header2{
-    width: 99%;
-    height: 30vh;
     padding: 20px;
-    margin: 10px;
+    margin-bottom: 20px; 
+    color: white;
+}
+
+
+#DA-Content{  
     background-color: whitesmoke;
     border-radius: 10px 0px 0px 10px;
-}
-
-#header-col2{
-    color:#006937;
-    padding-left: 30px;
-    font-size: 350%;
-    text-align: right;
-}
-
-
-#header-title{
-    text-align: right; 
-    color: green;
-    font-size: 400%;
-}
-
-#DA-header{ 
-    width: 95%;
-}
-
-#text-container1{
-    background-color: #006937;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 15px;
-    width: 99%;
-    text-align: justify; 
+    padding: 20px;
+    margin-bottom: 20px; 
     color: white;
 }
 
 
 
-#DA-Content{  
-    padding: 10px;
-    margin: 10px;
-    margin-top: 40px;
-    width: 95%; 
-}
-
-
-#text-container2{
-    background-color: whitesmoke;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 15px;
-    width: 99%;
-}
-
-
-
-
-.DA-PIC{
-    height: 60%;
-    width: 60%;
+.RAA-PIC{
+    height: 80%;
+    width: 80%;
     margin-left: 15%;
+    padding: 20px;
 }
 
 
