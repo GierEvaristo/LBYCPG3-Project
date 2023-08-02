@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles-faculty.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+            .material-symbols-rounded {
+              font-variation-settings:
+              'FILL' 0,
+              'wght' 500,
+              'GRAD' 0,
+              'opsz' 48
+            }
+            </style>
+    </head>
+
+    <body>
+        <div class="green-box-top">
+        </div>
+        <div class="container-fluid">
+            <button type="button" class="btn" id="collapseBtn">
+                <span class="material-symbols-rounded" id="toggleIcon">
+                    menu_open
+                </span>
+            </button>
+            <div class="row flex-nowrap">
+                <div class="col-auto col-md-2 col-l-2 px-sm-2 px-0 shadow" id="sidebar">
+                    <div class="d-flex flex-column align-items-center">
+                        <img class="dlsu-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/De_La_Salle_University_Seal.svg/1200px-De_La_Salle_University_Seal.svg.png">
+                        <div class="d-flex flex-column align-items-center" id="directories">
+                            <p class="fs-4">De La Salle University</p>
+                            <div class="d-flex flex-column align-items-left">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Home</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Expected Lasallian Graduate Attributes (ELGA)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Program Educational Objectives (PEO)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Student Outcomes (SO)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Curriculum Map</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Recognition, Accreditations and Assessments</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Degree Programs</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Enrollment and Graduation Statistics</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Department Organizational Structure</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Faculty Profile</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Laboratory and Facilities</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Department Organizational Structure</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Faculty Profile</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Laboratory and Facilities</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Research and Publications</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Community Engagement and Linkages</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Awards and Achievements</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Thesis Archives</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Conferences</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Student Organization</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Licensure Examination</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Continuing Professional Development</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Alumni and Board of Advisers</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Downloadable Forms and Policies</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><span class="navtext">Contact Us</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md"> 
+                    
+                    <div class = "d-flex flex-row align-items-center justify-content-left" id="body-header">
+                        <img class = "dlsu-gcoe" src = "pictures/dlsu-gcoe.png">
+                        <div class = "d-flex flex-column align-items-left justify-content-center" id="header-col">
+                            <div class = "fs-1"> Gokongwei College of Engineering</div>
+                            <div class = "fs-2 fw-light"> Department of Electronics and Computer Engineering</div>
+                        </div>
+                    </div>
+                   
+
+                    <div class = "d-flex flex-column align-items-center justify-content-left text-wrap" id="structure">
+                        <div class = "d-flex flex-row align-items-center justify-content-left text-wrap" id="bigfont-container">
+                            <span class="outline-font"><p>Faculty Profile</p></span>
+                        </div>
+                    </div>
+                            
+                    <div class = "d-flex flex-column align-items-left justify-content-left text-wrap" id="profile-table">
+                        <table>
+
+                            <tr>
+                                <td colspan="4"> 
+                                    <div class = "d-flex flex-column align-items-center justify-content-cnter" id="profile-header">
+                                        <div class = "fs-1">Electronics and Communications Engineering</div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/abad.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742736330"><span class="profile-text">ABAD, ALEXANDER C.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td> 
+                                <td>
+                                
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/abuan.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742669581"><span class="profile-text">ABUAN, DONABEL D</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/africa.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742690931"><span class="profile-text">AFRICA, AARON DON M.</span></a>
+                                            <div class = "fs-6 fw-light"> Full Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/alipio.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665770553"><span class="profile-text">ALIPIO, MELCHIZEDEK I.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/ambata.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742691089"><span class="profile-text">AMBATA, LEONARD U.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                    
+                                </td> 
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/arada.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742657951"><span class="profile-text">ARADA, GERALD P.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/bandala.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742723894"><span class="profile-text">BANDALA, ARGEL A.</span></a>
+                                            <div class = "fs-6 fw-light"> Full Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/bucao.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742692770"><span class="profile-text">BUCAO, BLANCA I.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Prof. Lecturer</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/cabatuan.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742736303"><span class="profile-text">CABATUAN, MELVIN K.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td> 
+
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/catalan.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742694088"><span class="profile-text">CATALAN, JOSE ANTONIO M.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/generic.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665848694"><span class="profile-text">DE LUNA, ROBERT G.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Prof. Lecturer</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/rosario.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742744616"><span class="profile-text">DEL ROSARIO, JAY ROBERT B.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/dulay.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742699685"><span class="profile-text">DULAY, ANN E.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                    
+                                </td> 
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/dupo.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665770162"><span class="profile-text">DUPO, VOLTAIRE B.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Prof. Lecturer</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/graza.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742694236"><span class="profile-text">GRAZA, MARVIL V.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Prof. Lecturer</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td> 
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/gustillo.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742735722"><span class="profile-text">GUSTILO, REGGIE C.</span></a>
+                                            <div class = "fs-6 fw-light"> Full Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/illahi.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665818811"><span class="profile-text">ILLAHI, ANA ANTONIETTE C.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/jose.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665808641"><span class="profile-text">JOSE, JOHN ANTHONY C.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/generic.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665849054"><span class="profile-text">LAMBOLOTO, AL IVAN G.</span></a>
+                                            <div class = "fs-6 fw-light"> Lecturer</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/generic.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665839059"><span class="profile-text">LIGUTAN, DINO DOMINIC F.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/lim.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665818655"><span class="profile-text">LIM, GIAN CARLO L.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Prof. Lecturer</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/llorente.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742726079"><span class="profile-text">LLORENTE, CESAR A.</span></a>
+                                            <div class = "fs-6 fw-light"> Adjunct Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/magsino.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742736074"><span class="profile-text">MAGSINO, ELMER R.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/maningo.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665808552"><span class="profile-text">MANINGO, JOSE MARTIN Z..</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td> 
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/manzano.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742677406"><span class="profile-text">MANZANO, ENRIQUE M.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/mappatao.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742726648"><span class="profile-text">MAPPATAO, GERINO P.</span></a>
+                                            <div class = "fs-6 fw-light"> Full Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/materum.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742740203"><span class="profile-text">MATERUM, LAWRENCE Y.</span></a>
+                                            <div class = "fs-6 fw-light"> Full Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/navea.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665770243"><span class="profile-text">NAVEA, ROY FRANCIS R.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td> 
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/ochotorena.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742735159"><span class="profile-text">OCHOTORENA, CARLO NOEL E.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/generic.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665829104"><span class="profile-text">PADILLA, MARK LESTER F.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/pakzad.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665788114"><span class="profile-text">PAKZAD, ARMIE E.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/roque.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742693270"><span class="profile-text">ROQUE, MARIA ANTONETTE C.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/sybingco.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742692968"><span class="profile-text">SYBINGCO, EDWIN</span></a>
+                                            <div class = "fs-6 fw-light"> Full Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/torregoza.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742723870"><span class="profile-text">TORREGOZA, MARK LORENZE D.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Prof. Lecturer</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/yap.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742692910"><span class="profile-text">YAP, RODERICK Y.</span></a>
+                                            <div class = "fs-6 fw-light"> Associate Professor</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/generic.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665848702"><span class="profile-text">YASAY, BERNARD G.</span></a>
+                                            <div class = "fs-6 fw-light"> Assistant Prof. Lecturer</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/alo.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742707548"><span class="profile-text">ALO, MA. ROWENA F.</span></a>
+                                            <div class = "fs-6 fw-light"> Co-Academic Personnel</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/borlagdan.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742708816"><span class="profile-text">BORLAGDAN, ROMMEL ANTOLIN D.</span></a>
+                                            <div class = "fs-6 fw-light"> Co-Academic Personnel</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/casiano.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665824850"><span class="profile-text">CASIANO, ROLAND T. JR.</span></a>
+                                            <div class = "fs-6 fw-light"> Co-Academic Personnel</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/cordial.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32665805578"><span class="profile-text">CORDIAL, JOSEPH L.</span></a>
+                                            <div class = "fs-6 fw-light"> Co-Academic Personnel</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/eliquen.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742708808"><span class="profile-text">ELIQUEN, ENGELBERT A.</span></a>
+                                            <div class = "fs-6 fw-light"> Co-Academic Personnel</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/gomez.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742723112"><span class="profile-text">GOMEZ, RODOLFO F. JR.</span></a>
+                                            <div class = "fs-6 fw-light"> Co-Academic Personnel</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td> 
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/ignacio.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742733223"><span class="profile-text">IGNACIO, RONALD C..</span></a>
+                                            <div class = "fs-6 fw-light"> Co-Academic Personnel</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/macadaeg.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742688373"><span class="profile-text">MACADAEG, AURENILO T.</span></a>
+                                            <div class = "fs-6 fw-light"> Academic Service Faculty</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td> 
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class = "d-flex flex-column align-items-center justify-content-left" id="profile">
+                                        <img class = "profile-picture" src = "Pictures/profs/tala.png">
+                                        <div class = "d-flex flex-column align-items-center justify-content-center" id="profile-title">
+                                            <a class="profile-link" href="https://www.dlsu.edu.ph/colleges/gcoe/academic-departments/electronics-computer-engineering/faculty-profile/?personnel=32742733339"><span class="profile-text">TALA, RAMEL S.</span></a>
+                                            <div class = "fs-6 fw-light"> Co-Academic Personnel</div>
+                                            <div class = "fs-6 fw-light"> Electronics And </div>
+                                            <div class = "fs-6 fw-light"> Communications Engineering</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="green-box-bottom"></div>
+        <script type="text/javascript" language="javascript" src="scripts.js"></script>
+    </body>
+</html>
