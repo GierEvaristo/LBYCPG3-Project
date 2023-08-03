@@ -101,7 +101,8 @@ body {
 }
 
 .outline-font {
-    font-family: "Inter","serif";
+    font-family: Helvetica;
+    font-weight: bold;
     font-size: 6rem;
     color: transparent;
     -webkit-text-stroke-width: 4px;
@@ -110,7 +111,8 @@ body {
 }
 
 .outline-font2 {
-    font-family: "Inter","serif";
+    font-family: Arial;
+    font-weight: bold;
     font-size: 7rem;
     color: transparent;
     -webkit-text-stroke-width: 4px;
@@ -119,7 +121,8 @@ body {
 }
 
 .outline-font3 {
-    font-family: "Inter","serif";
+    font-family: Helvetica;
+    font-weight: bold;
     font-size: 4rem;
     color: transparent;
     -webkit-text-stroke-width: 4px;

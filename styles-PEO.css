@@ -73,16 +73,16 @@ body {
     background-color: #006937;
     border-radius: 10px 0px 0px 10px;
     padding: 20px;
+    padding-bottom: 10px;
     margin-bottom: 20px; 
     color: white;
 }
-
-
 
 #PEO-Content{  
     background-color: #393939;
     border-radius: 10px 0px 0px 10px;
     padding: 20px;
+    padding-left: 40px;
     margin-bottom: 20px;
     color: white;
 }

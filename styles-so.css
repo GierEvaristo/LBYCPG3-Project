@@ -78,7 +78,13 @@ body {
     overflow: hidden;
 }
 
-.body-circuit{
+.body-pic{
+    height: 40vh;
+    width: 100%;
+    object-fit:cover;
+}
+
+.body-contentimg{
     height: 40vh;
     width: 100%;
     object-fit:cover;
@@ -89,26 +95,23 @@ body {
     padding-left: 30px;
 }
 
-#mission{  
-    background-color: #006937;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px 0px 0px 10px;
-}
 #tableHolder{  
     background-color: #383838;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px 0px 0px 10px;
 }
+
 #green-container{
     color: white;
     background-color: #006937;
     border-radius: 10px 0px 0px 10px;
     padding: 20px;
+    padding-bottom: 30px;
     margin-bottom: 20px;
     text-align: justify; 
 }
+
 #white-container{
     background-color: #006937;
     border-radius: 10px 0px 0px 10px;
@@ -124,7 +127,7 @@ body {
 }
 
 .outline-font {
-    font-family: "Inter","serif";
+    font-family: Helvetica;
     font-size: 10rem;
     color: transparent;
     -webkit-text-stroke-width: 4px;
