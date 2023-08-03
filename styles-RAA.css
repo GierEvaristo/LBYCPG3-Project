@@ -7,8 +7,9 @@ body {
 }
 
 .outline-font {
-    font-family: "Inter","serif";
-    font-size: 4rem;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 72px;
     color: transparent;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: #006937;
@@ -101,7 +102,14 @@ body {
     color: white;
 }
 
-
+#generic-header {
+    background-color: #006937;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+    color: white;
+}
 
 .RAA-PIC{
     height: 80%;
