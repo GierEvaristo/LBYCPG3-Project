@@ -193,6 +193,15 @@ h1 {
     -webkit-text-stroke-color: #006937;
 }
 
+.outline-font-RAA2 {
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 72px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
 /*Degree Programs*/
 .DP-outline-font {
     font-family: Helvetica;
@@ -278,6 +287,7 @@ h1 {
 }
 
 
+
 /*Community Engagement and Linkages*/
 .com1 {
     font-size: 5rem;
@@ -293,6 +303,15 @@ h1 {
     -webkit-text-stroke-color: white;
     line-height: 1;
 }
+
+.com3 {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    line-height: 1;
+}
+
 
 #com-Header{ 
     background-color: #006937;
@@ -401,3 +420,23 @@ h1 {
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: #006937;
 }
+
+/*Alumni and Board of Advisers*/
+
+.alumni{
+    font-size: 6rem;
+    -webkit-text-stroke-color: #006937;
+    
+}
+
+/*Research and Publications*/
+#Research-Table{  
+    background-color: #393939;
+    border-radius: 10px 0px 0px 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    text-align: justify; 
+    color: white;
+}
+
