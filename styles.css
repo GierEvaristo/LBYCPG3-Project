@@ -7,7 +7,6 @@ h1 {
     color:white;
 }
 
-
 .green-box-top {
     background-color: #006937;
     height: 4vh;
@@ -42,4 +41,202 @@ h1 {
 
 #titlepage {
     background-color: green;
+}
+
+.round-rightelement {
+    border-radius: 10px 10px 10px 10px;
+}
+
+#body-header{
+    height: 30vh;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: url("pictures/body-header.jpg");
+    border-radius: 10px 0px 0px 10px;
+}
+
+.dlsu-gcoe{
+    height: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#generic-headerpic-container{
+    height: 40vh; 
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+    overflow: hidden;
+}
+
+#generic-green-header{ 
+    background-color: #006937;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+    color: white;
+}
+
+.generic-headerpic{
+    height: 40vh;
+    width: 100%;
+    object-fit:cover;
+}
+
+#header-col{
+    color:white;
+    padding-left: 30px;
+}
+
+#generic-textbox{  
+    background-color: #006937;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.outline-font {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 10rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    line-height: 0;
+}
+
+#outline-font-container {
+    margin-bottom: 20px;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+}
+
+/*ELGA*/
+
+#ELGA { 
+    background-color: #006937;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify; 
+    color: white;
+}
+
+#ELGA-Table{  
+    background-color: #393939;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify; 
+    color: white;
+}
+
+/*PEO*/
+
+#PEO-Content{  
+    background-color: #393939;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#NUM {
+    font-size: 800%;
+}
+
+.PEO-PIC{
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.text1{
+    font-size: 110%;
+}
+
+/*CM & SO*/
+#tableHolder{  
+    background-color: #383838;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#green-container{
+    color: white;
+    background-color: #006937;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+
+/*RAA*/
+.RAA-PIC{
+    height: 80%;
+    width: 80%;
+    margin-left: 15%;
+    padding: 20px;
+}
+
+.outline-font-RAA {
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 72px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #006937;
+}
+
+/*Degree Programs*/
+.outline-font {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 6rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;
+    line-height: 0;
+}
+
+.outline-font2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 7rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    line-height: 0;
+}
+
+.outline-font3 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    line-height: 0;
+}
+
+#bigfont-container {
+    margin-bottom: 20px;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+}
+
+#body-picture{
+    height: 40vh; 
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+    overflow: hidden;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pictures/body-pcb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }

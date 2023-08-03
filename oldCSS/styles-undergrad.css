@@ -68,12 +68,10 @@ body {
     margin-bottom: 20px;
     border-radius: 10px 0px 0px 10px;
     overflow: hidden;
-}
-
-.body-circuit{
-    height: 40vh;
-    width: 100%;
-    object-fit:cover;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pictures/body-pcb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 #header-col{
@@ -81,26 +79,21 @@ body {
     padding-left: 30px;
 }
 
-#mission{  
+#prog-description{  
     background-color: #006937;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px 0px 0px 10px;
 }
-#tableHolder{  
-    background-color: #383838;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px 0px 0px 10px;
-}
-#vision{
+
+#body-content{
     background-color: #006937;
     border-radius: 10px 0px 0px 10px;
     padding: 20px;
     margin-bottom: 20px;
     text-align: justify; 
 }
-#program-history{  
+#specializations{  
     background-color: #006937;
     padding: 20px;
     margin-bottom: 20px;
@@ -108,25 +101,44 @@ body {
 }
 
 .outline-font {
-    font-family: "Inter","serif";
-    font-size: 10rem;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 6rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;
+    line-height: 0;
+}
+
+.outline-font2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 7rem;
     color: transparent;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
     line-height: 0;
 }
 
+.outline-font3 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    line-height: 0;
+}
+
+td {
+    margin-bottom: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+
 #bigfont-container {
     margin-bottom: 20px;
     padding-top: 8vh;
     padding-bottom: 2.2vh;
-}
-
-#generic-header {
-    background-color: #006937;
-    border-radius: 10px 0px 0px 10px;
-    padding: 20px;
-    padding-bottom: 10px;
-    margin-bottom: 20px; 
-    color: white;
 }
