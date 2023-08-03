@@ -1,0 +1,128 @@
+h1 {
+    color:white;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.outline-font {
+    font-family: "Inter","serif";
+    font-size: 4.5rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #006937;
+    line-height: 0;
+}
+
+.outline-font1 {
+    font-family: "Inter","serif";
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;
+    line-height: 0;
+}
+
+#bigfont-container {
+    margin-bottom: 20px;
+    padding-top: 8vh;
+    padding-bottom: 2.2vh;
+}
+
+
+.green-box-top {
+    background-color: #006937;
+    height: 4vh;
+    margin-bottom: 10px;
+}
+
+.green-box-bottom {
+    background-color: #006937;
+    height: 4vh;
+    margin-top: 10px;  
+}
+
+.dlsu-logo {
+    width: 70px;
+    margin: 10px;
+}
+
+#sidebar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+}
+
+.navtext {
+    color: black;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.green-box-bottom {
+    background-color: #006937;
+    height: 4vh;
+    margin-top: 10px;
+}
+
+.round-rightelement {
+    border-radius: 10px 10px 10px 10px;
+}
+
+#body-header{
+    height: 30vh;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: url("pictures/body-header.jpg");
+    border-radius: 10px 0px 0px 10px;
+}
+
+.dlsu-gcoe{
+    height: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#header-col{
+    color:white;
+    padding-left: 30px;
+}
+
+#com-Header{ 
+    background-color: #006937;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    color: white;
+}
+
+#com-description{ 
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    color: black;
+}
+
+
+#com-Content{  
+    background-color: whitesmoke;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    color: white;
+}
+
+.COM-PIC{
+    height: 90%;
+    width: 90%;
+    margin-left: 15%;
+    padding: 20px;
+}
+
+
