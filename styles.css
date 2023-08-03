@@ -194,7 +194,7 @@ h1 {
 }
 
 /*Degree Programs*/
-.outline-font {
+.DP-outline-font {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 6rem;
@@ -204,8 +204,8 @@ h1 {
     line-height: 0;
 }
 
-.outline-font2 {
-    font-family: Arial;
+.DP-outline-font2 {
+    font-family: Helvetica;
     font-weight: bold;
     font-size: 7rem;
     color: transparent;
@@ -214,7 +214,7 @@ h1 {
     line-height: 0;
 }
 
-.outline-font3 {
+.DP-outline-font3 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 4rem;
@@ -224,7 +224,7 @@ h1 {
     line-height: 0;
 }
 
-#bigfont-container {
+#DP-bigfont-container {
     margin-bottom: 20px;
     padding-top: 8vh;
     padding-bottom: 2vh;
@@ -238,5 +238,166 @@ h1 {
     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pictures/body-pcb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+
+/*dept-struc*/
+.dps {
+    -webkit-text-stroke-color: #006937;
+    font-size: 7rem;
+}
+
+#profile-table{  
+    background-color: #393939;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#profile{  
+    background-color: #393939;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify; 
+    color: white;
+}
+
+.profile-picture{
+    height: 70%;
+    width: 70%;
+    padding: 10px;
+}
+
+#profile-header{  
+    background-color: #393939;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+    color: white;
+}
+
+
+/*Community Engagement and Linkages*/
+.com1 {
+    font-size: 5rem;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: green;
+    line-height: 1.2;
+}
+.com2 {
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    line-height: 1;
+}
+
+#com-Header{ 
+    background-color: #006937;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    color: white;
+}
+
+#com-description{ 
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    color: black;
+}
+
+#com-Content{  
+    background-color: whitesmoke;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    color: white;
+}
+
+.COM-PIC{
+    height: 90%;
+    width: 90%;
+    margin-left: 15%;
+    padding: 20px;
+}
+
+/* Laboratory Facilities */
+.lf2 {
+    line-height: 1.5;
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.lab{
+    height: 35%;
+    width: 35%;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+.lab1{
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+#generic-header-2{
+    background-color: #383838;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify; 
+    color: white;
+}
+
+/*Faculty Profile*/
+#profile-table{  
+    background-color: #393939;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#profile{  
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify; 
+    color: white;
+}
+
+.profile-picture{
+    height: 70%;
+    width: 70%;
+    padding: 10px;
+}
+
+#profile-header{  
+    background-color: #393939;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+    color: white;
+}
+
+.profile-text {
+    color: green;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.fp {
+    line-height: 1.5;
+    font-size: 10rem;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #006937;
 }
