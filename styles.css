@@ -160,21 +160,36 @@ h1 {
 
 /*CM & SO*/
 #tableHolder{  
+    color: white;
     background-color: #383838;
-    padding: 20px;
-    margin-bottom: 20px;
     border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: justify; 
 }
-
+#gen-table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #green-container{
     color: white;
     background-color: #006937;
     border-radius: 10px 0px 0px 10px;
     padding: 20px;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
     text-align: justify; 
 }
+#white-spacer{
+    color: white;
+    background-color: #fdfdfd;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: justify; 
+}
+
 
 /*RAA*/
 .RAA-PIC{
