@@ -51,7 +51,7 @@ h1 {
     height: 30vh;
     padding: 20px;
     margin-bottom: 20px;
-    background-image: url("pictures/body-header.jpg");
+    background-image: url("Pictures/body-header.jpg");
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -253,7 +253,7 @@ h1 {
     margin-bottom: 20px;
     border-radius: 10px 0px 0px 10px;
     overflow: hidden;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pictures/body-pcb.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Pictures/body-pcb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
