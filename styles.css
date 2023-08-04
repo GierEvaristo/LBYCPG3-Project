@@ -217,6 +217,15 @@ h1 {
     -webkit-text-stroke-color: white;
 }
 
+.outline-font-RAA3 {
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
 /*Degree Programs*/
 .DP-outline-font {
     font-family: Helvetica;
@@ -470,6 +479,13 @@ h1 {
     margin-bottom: 20px;
     text-align: justify; 
     color: white;
+}
+
+/*Student Organizations*/
+.SO-PIC{
+    height: 70%;
+    width: 70%;
+    padding: 10px;
 }
 
 
