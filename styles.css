@@ -255,12 +255,13 @@ h1 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
     line-height: 0;
+    margin-bottom: 20px;
 }
 
 #DP-bigfont-container {
     margin-bottom: 20px;
     padding-top: 8vh;
-    padding-bottom: 2vh;
+    padding-bottom: 0.5vh;
 }
 
 #body-picture{
@@ -384,7 +385,7 @@ h1 {
 .lab-container {
     border-radius: 10px 10px 10px 10px;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     background-color: b;
 }
 
