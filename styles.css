@@ -46,6 +46,9 @@ h1 {
 .round-rightelement {
     border-radius: 10px 10px 10px 10px;
 }
+.round-all {
+    border-radius: 10px 10px 10px 10px;
+}
 
 #body-header{
     height: 30vh;
@@ -460,7 +463,6 @@ h1 {
 
 .profile-text2 {
     color: white;
-    font-size: 22px
 }
 
 
